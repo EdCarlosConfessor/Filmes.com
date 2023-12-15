@@ -18,7 +18,7 @@ header {
     align-items: center;            /* alinha os itens para o centro */
     justify-content: space-evenly;
     padding: 2%;
-    background-color: brown;      /* Cor do header, a primeira barra cabeçalho */
+    background-color: rgb(0, 0, 0);      /* Cor do header, a primeira barra cabeçalho */
     overflow: hidden;
     /*line-height:200px;
     max-height: 200px;
