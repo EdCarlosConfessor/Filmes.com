@@ -17,7 +17,7 @@ header {
     display: flex;                  /* responsavel por colocar os itens na mesma linha */
     align-items: center;            /* alinha os itens para o centro */
     justify-content: space-evenly;
-    padding: 2%;
+    padding: 5%;
     background-color: rgb(0, 0, 0);      /* Cor do header, a primeira barra cabeçalho */
     overflow: hidden;
     /*line-height:200px;
