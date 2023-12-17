@@ -1,5 +1,5 @@
 
-/*  =============== Stilização Inicial do CSS  ==============================*/ 
+/*  =============== Stilização Inicial do CSS  ============================== */ 
 
 *{
     margin: 0;
@@ -10,7 +10,7 @@
     /*   font-family: Arial, Helvetica, sans-serif;  */
 }
 
-/* =================== Stilização do HEADER  ================================*/
+/*  =================== Stilização do HEADER  ================================ */
 
 header{
     background-color: #111;
@@ -143,11 +143,11 @@ header{
 }
 
 .section-end h2{
-    font-size: 3em;
+    font-size: 4.2em;
     font-weight: 500;
     color: #fff;    
     width: 50%;
-    margin-left: 30%;
+    margin-left: 45%;
     text-align: center;
 }
 
@@ -155,16 +155,35 @@ header{
 
 footer{
     padding: 2rem;
-    background-color: #6b6969;
+    background-color: #6b6969;  
 }
 
-.ft-contact{
-    text-align: center;
-}
+
 
 .ft-contact ul{
-    font-size: 25px;
+    font-size: 22px;
     display: grid;
-    grid-template-columns: 2fr 2fr;    
+    grid-template-columns: 2fr 2fr;  
     gap: 10px;
+    
 }
+
+.list-footer{
+    display: flex;
+    
+    
+ }
+
+ .item-menu-footer {
+    margin-top: 3%; 
+    display: flex;
+    justify-content: center; /* Alinha as listas horizontalmente */
+    
+ }
+
+ .item-menu-footer p {
+    margin-left: 0.5em;
+    align-items: center;
+ }
+ 
+ /* =================================   The  End  =====================================  */
