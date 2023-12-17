@@ -148,14 +148,43 @@ header{
     background-size: cover;    
 }
 
-.section-end h2{
+
+/* ============== Area Stilizando com efeito digitação o h2 " ENTRA E SAI DO TEXTO" ============ */
+
+.section-end {
+    position: relative;
+    height: 650px; /* Ajuste conforme necessário */
+    overflow: hidden;
+  }
+  
+  .section-end h2 {
     font-size: 4.2em;
     font-weight: 500;
-    color: #fff;    
-    width: 50%;
-    margin-left: 45%;
-    text-align: center;
-}
+    color: #fff;
+    text-align: right;
+    position: absolute ;
+    bottom: 50%;
+    left: 60%;
+    transform: translate(-50%, 50%);
+    opacity: 0;
+    animation: slideAndPause 4s linear infinite;
+  }
+  
+  @keyframes slideAndPause {
+    0%, 100% {
+      bottom: 50%;
+      opacity: 0;
+    }
+    10% {
+      bottom: 50%;
+      opacity: 1;
+    }
+    150% {
+      bottom: 50%;
+      opacity: 1;
+    }
+  }
+  
 
 /* ==========================   Stilizando o FOOTER  =============================== */
 
