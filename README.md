@@ -1,2 +1,7 @@
 # Filmes.com
- Projeto replicar site
+ Projeto replicar site so visual.
+
+ Visite o projeto:
+ https://edcarlosconfessor.github.io/Filmes.com/
+
+ ============================================================================
